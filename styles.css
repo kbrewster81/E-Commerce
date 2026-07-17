@@ -145,6 +145,8 @@ button:active {
 
 .container {
   padding: 56px 0;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -162,12 +164,12 @@ HIGHLIGHTS
 
 */
 
-#highlight {
+#highlights {
   position: relative;
 }
 
 
-#highlight:before {
+#highlights:before {
   background: url('assets/wave.svg');
   content: "";
   position: absolute;
@@ -181,7 +183,7 @@ HIGHLIGHTS
   transform: translateY(-100px);
 }
 
-#highlight:after {
+#highlights:after {
   background: url('assets/wave.svg');
   content: "";
   position: absolute;
